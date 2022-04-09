@@ -1,5 +1,5 @@
 # Projeto-Traveller
-Implentação de API:
+Implementação de API:
 foi feito a localização do restauranrante pela tag <iframe>
 a validação da escrita correta do email quando digitado
 e foi colocado a localixação do usuario
