@@ -388,6 +388,24 @@ header .search-bar-container label:hover{
   font-size: 1.5rem;
   text-decoration: line-through;
 }
+.history .box-container{
+  flex-wrap: wrap;
+  gap:1.5rem;
+  text-align: center;
+  padding:1rem;
+}
+
+.history .box-container h3{
+  font-size: 3rem;
+  color:#333;
+}
+
+.history .box-container p{
+  font-size: 1.5rem;
+  color:#666;
+  padding:1rem 0;
+  text-align: center;
+}
 
 .tips .box-container{
   display: flex;
