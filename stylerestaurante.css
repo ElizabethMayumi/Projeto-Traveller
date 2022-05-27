@@ -364,6 +364,10 @@ header .search-bar-container label:hover{
   .tips .box-container .box:hover{
     box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
   }
+  .location div{
+      display: flex;
+
+  }
 .review .review-slider{
     padding-bottom: 2rem;
   }
