@@ -38,7 +38,7 @@ section{
 .heading span{
   font-size: 3.5rem;
   background:rgba(255, 165, 0,.2);
-  color:var(--orange);
+  color:var(--red);
   border-radius: .5rem;
   padding:.2rem 1rem;
 }
@@ -50,17 +50,17 @@ section{
 .btn{
   display: inline-block;
   margin-top: 1rem;
-  background:var(--orange);
+  background:var(--red);
   color:#fff;
   padding:.8rem 3rem;
-  border:.2rem solid var(--orange);
+  border:.2rem solid var(--red);
   cursor: pointer;
   font-size: 1.7rem;
 }
 
 .btn:hover{
   background:rgba(255, 165, 0,.2);
-  color:var(--orange);
+  color:var(--red);
 }
 
 header{
@@ -82,7 +82,7 @@ header .logo{
 }
 
 header .logo span{
-  color:var(--orange);
+  color:var(--red);
 }
 
 header .navbar a{
@@ -92,7 +92,7 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-  color:var(--orange);
+  color:var(--red);
 }
 
 header .icons i{
@@ -103,7 +103,7 @@ header .icons i{
 }
 
 header .icons i:hover{
-  color:var(--orange);
+  color:var(--red);
 }
 
 header .search-bar-container{
@@ -139,7 +139,7 @@ header .search-bar-container label{
 }
 
 header .search-bar-container label:hover{
-  color:var(--orange);
+  color:var(--red);
 }
 
 .login-form-container{
@@ -185,7 +185,7 @@ header .search-bar-container label:hover{
 }
 
 .login-form-container form .box:focus{
-  border-color: var(--orange);;
+  border-color: var(--red);;
 }
 
 .login-form-container form #remember{
@@ -208,7 +208,7 @@ header .search-bar-container label:hover{
 }
 
 .login-form-container form p a{
-  color:var(--orange);
+  color:var(--red);
 }
 
 .login-form-container form p a:hover{
@@ -289,7 +289,7 @@ header .search-bar-container label:hover{
 }
 
 .home .controls .vid-btn.active{
-  background:var(--orange);
+  background:var(--red);
 }
 .restaurant .row{
     display: flex;
@@ -347,7 +347,7 @@ header .search-bar-container label:hover{
   .tips .box-container .box i{
     padding:1rem;
     font-size: 5rem;
-    color:var(--orange);
+    color:var(--red);
   }
   
   .tips .box-container .box h3{
@@ -399,7 +399,7 @@ header .search-bar-container label:hover{
   }
   
   .review .box .stars i{
-    color:var(--orange);
+    color:var(--red);
     font-size: 1.7rem;
   }
   
@@ -486,7 +486,7 @@ header .search-bar-container label:hover{
   }
   
   .footer .box-container .box a:hover{
-    color:var(--orange);
+    color:var(--red);
     text-decoration: underline;
   }
   
