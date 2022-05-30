@@ -1,6 +1,10 @@
 <?php
 
-include_once("")
+include("Tour.html");
+include("Restaurante.html");
+include("Home.html"),
+include("AreadoUsuario.html")
+
 
 
 ?>
