@@ -113,24 +113,3 @@ function showError(error) {
         break;
     }
   }
-// exibir/ocultar senha
-const senha = document.querySelector(".senha");
-const icon_senha = document.querySelector('.visibilidade');
-icon_senha.addEventListener('click', () => {
-    if (senha.type === 'password') {
-        senha.type = 'text';
-    } else {
-        senha.type = 'password';
-    }
-    senha.focus();
-});
-
-// liberar alteração nos campos do formulário 
-const btnAlterar = document.querySelector('#alterar');
-const meuForm = document.querySelectorAll('input, select, date, button');
-btnAlterar.addEventListener('click', () => {
-    meuForm.forEach((campo) => {
-        campo.removeAttribute('disabled');
-    })
-    meuForm[0].focus();
-});
