@@ -399,7 +399,7 @@ header .search-bar-container label:hover{
   flex-wrap: wrap;
   gap:1.5rem;
   text-align: center;
-  padding:1rem;
+  padding:3rem 3rem;
 }
 
 .history .box-container h3{
