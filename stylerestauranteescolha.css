@@ -314,7 +314,7 @@ header .search-bar-container label:hover{
   }
   
   .restaurant .row .info {
-    padding:.5rem 0;
+    padding:3rem 3rem
   }
   .restaurant .row .info p {
     padding:.5rem 0;
@@ -330,6 +330,14 @@ header .search-bar-container label:hover{
     padding:1rem 0;
     color:#666;
     text-align: center;
+  }
+  .restaurant .row .info input{
+    width:50%;
+    padding:1rem;
+    border:.3rem solid rgba(0,0,0,.1);
+    font-size: 1.7rem;
+    color:#333;
+    text-transform: none;
   }
   .contact .row{
     display: flex;
