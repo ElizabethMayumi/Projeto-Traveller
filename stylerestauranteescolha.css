@@ -314,13 +314,13 @@ header .search-bar-container label:hover{
   }
   
   .restaurant .row .info {
-    padding:3rem 3rem;
+    padding:3rem 3rem
   }
   .restaurant .row .info p {
     padding:.5rem 0;
     font-size: 1.5rem;
     color:#666;
-    padding:3rem 0;
+    padding:1rem 0;
     text-align: center;
 
   }
@@ -331,98 +331,14 @@ header .search-bar-container label:hover{
     color:#666;
     text-align: center;
   }
-  .tips .box-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap:1.5rem;
-  }
-  
-  .tips .box-container .box{
-    flex: 1 1 30rem;
-    border-radius: .5rem;
+  .restaurant .row .info input{
+    width:50%;
     padding:1rem;
-    text-align: center;
-  }
-  
-  .tips .box-container .box i{
-    padding:1rem;
-    font-size: 5rem;
-    color:var(--red);
-  }
-  
-  .tips .box-container .box h3{
-    font-size: 2.5rem;
-    color:#333;
-  }
-  
-  .tips .box-container .box p{
-    font-size: 1.5rem;
-    color:#666;
-    padding:1rem 0;
-  }
-  
-  .tips .box-container .box:hover{
-    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
-  }
-  .menu .box-container{
-    flex-wrap: wrap;
-    gap:1.5rem;
-    text-align: center;
-    padding:1rem;
-  }
-  
-  .menu .box-container h3{
-    font-size: 3rem;
-    color:#333;
-  }
-  
-  .menu .box-container p{
-    font-size: 1.5rem;
-    color:#666;
-    padding:1rem 0;
-    text-align: center;
-  }
-  .location .div iframe{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: center;
-  }
-.review .review-slider{
-    padding-bottom: 2rem;
-  }
-  
-  .review .box{
-    padding:2rem;
-    text-align: center;
-    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
-    border-radius: .5rem;
-  }
-  
-  .review .box img{
-    height:13rem;
-    width:13rem;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 1rem;
-  }
-  
-  .review .box h3{
-    color:#333;
-    font-size: 2.5rem;
-  }
-  
-  .review .box p{
-    color:#666;
-    font-size: 1.5rem;
-    padding:1rem 0;
-  }
-  
-  .review .box .stars i{
-    color:var(--red);
+    border:.3rem solid rgba(0,0,0,.1);
     font-size: 1.7rem;
+    color:#333;
+    text-transform: none;
   }
-  
   .contact .row{
     display: flex;
     flex-wrap: wrap;
